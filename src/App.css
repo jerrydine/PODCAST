@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background: url(./image/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  height: 100%;
+  /* width: 100%; */
+}
+
+@media (max-width:750px){
+  body{
+    background-image: url(./image/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+}

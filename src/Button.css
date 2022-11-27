@@ -1,0 +1,27 @@
+.footer{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn{
+  width: 100%;
+  padding: 7px 0;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.footer h5{
+  color: gray;
+}
+
+@media (max-width:560px){
+  .btn{
+    width: 100%;
+    padding: 15px;
+  }
+}
+

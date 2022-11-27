@@ -1,0 +1,26 @@
+.order{
+  text-align: center;
+}
+
+.order h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(65, 65, 108);
+  margin-bottom: 15px;
+}
+
+.order p{
+  font-size: small;
+  padding: 0 20px;
+  line-height: 1.7;
+  color: gray;
+}
+
+
+@media (max-width: 300px){
+  .order p{
+    padding: 0 8px;
+    text-align: center;
+  }
+}
+
